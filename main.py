@@ -63,7 +63,7 @@ def create_tooltip(row):
         </h4>
         <table style="width:100%; font-size:12px; padding: 10px;">
             <tr><td><b>Kepadatan:</b></td><td>{row['kepadatan']}/km²</td></tr>
-            <tr><td><b>Sanitasi:</b></td><td>{row['rumahts']}</td></tr>
+            <tr><td><b>Rumah Tidak Sehat:</b></td><td>{row['rumahts']}</td></tr>
             <tr><td><b>Puskesmas:</b></td><td>{row['Puskesmas']}</td></tr>
             <tr><td><b>Kasus DBD:</b></td><td>{row['Kasus DBD']}</td></tr>
             <tr style="font-size: 16px; font-weight: bold; color: #FF8C00; padding: 5px 0;">
